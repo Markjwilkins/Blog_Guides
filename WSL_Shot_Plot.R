@@ -2,6 +2,8 @@ library(StatsBombR)
 library(tidyverse)
 library(ggsoccer)
 
+##initial blog: https://biscuitchaserfc.blogspot.com/2020/05/shot-maps-in-r-using-statsbomb-data.html
+
 ##load competitions
 Comp<-FreeCompetitions() %>%
   filter(competition_id==37, season_name=="2019/2020")
