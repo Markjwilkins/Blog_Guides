@@ -2,7 +2,7 @@ library(StatsBombR)
 library(tidyverse)
 library(SBpitch)
 
-##initial blog found at: https://biscuitchaserfc.blogspot.com/2020/03/getting-started-in-r-with-statsbomb-data.html
+##initial blog found at: https://biscuitchaserfc.blogspot.com/2020/03/getting-started-in-r-with-statsbomb-data.html & https://biscuitchaserfc.blogspot.com/2020/04/using-r-and-statsbomb-data-part-2.html
 
 ##load competitions and filter by WSL 2019/2020 - FreeCompetitions() will load availble competitions including WSL/Spain/Champions League
 Comp<-FreeCompetitions()%>%
