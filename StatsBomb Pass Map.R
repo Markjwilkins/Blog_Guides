@@ -21,7 +21,7 @@ StatsBombData = allclean(StatsBombData)
 data<-StatsBombData %>%
   filter(match_id==2275096, 
          type.name == "Pass" & is.na(pass.type.name), 
-         team.name == "West Ham United LFC") %>%
+         team.name == "Arsenal WFC") %>%
   mutate(pass.outcome = as.factor(if_else(is.na(pass.outcome.name), "Complete", "Incomplete")))
 
 ##summary stats of complete/incomplete passes
