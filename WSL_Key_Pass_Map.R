@@ -76,9 +76,9 @@ p+labs(title = "Shot Assists",
          subtitle = "WSL 2019/2020 - All Play",
          caption = "Data: StatsBomb / fbref.com
                   By: @biscuitchaser")+
-  theme(text = element_text(family = "Heebo-Regular", size = 12),
-        title = element_text(size = 18, family = "Heebo-Bold"),
-        plot.subtitle = element_text(size = 12, family = "Heebo-Regular"),
+  theme(text = element_text(size = 12),
+        title = element_text(size = 18),
+        plot.subtitle = element_text(size = 12, face = "bold"),
         plot.caption = element_text(size = 10),
         panel.background = element_blank(),
         strip.background.x = element_rect(fill = "NA"))
@@ -95,9 +95,9 @@ p+labs(title = "Shot Assists",
        subtitle = "WSL 2019/2020 - Open Play",
        caption = "Data: StatsBomb / fbref.com
                   By: @biscuitchaser")+
-  theme(text = element_text(family = "Heebo-Regular", size = 12),
-        title = element_text(size = 18, family = "Heebo-Bold"),
-        plot.subtitle = element_text(size = 12, family = "Heebo-Regular"),
+  theme(text = element_text(size = 12),
+        title = element_text(size = 18, face = "bold"),
+        plot.subtitle = element_text(size = 12),
         plot.caption = element_text(size = 10),
         panel.background = element_blank(),
         strip.background.x = element_rect(fill = "NA"))
