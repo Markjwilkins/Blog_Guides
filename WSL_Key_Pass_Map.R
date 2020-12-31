@@ -73,7 +73,7 @@ p<-ggplot()+
   facet_wrap(~player.name)
   
 p+labs(title = "Shot Assists",
-         subtitle = "WSL 2019/2020",
+         subtitle = "WSL 2019/2020 - All Play",
          caption = "Data: StatsBomb / fbref.com
                   By: @biscuitchaser")+
   theme(text = element_text(family = "Heebo-Regular", size = 12),
@@ -92,7 +92,7 @@ p<-ggplot()+
   facet_wrap(~player.name)
 
 p+labs(title = "Shot Assists",
-       subtitle = "WSL 2019/2020",
+       subtitle = "WSL 2019/2020 - Open Play",
        caption = "Data: StatsBomb / fbref.com
                   By: @biscuitchaser")+
   theme(text = element_text(family = "Heebo-Regular", size = 12),
