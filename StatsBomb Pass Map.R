@@ -2,6 +2,8 @@ library(StatsBombR)
 library(tidyverse)
 library(SBpitch)
 
+##initial blog found at: https://biscuitchaserfc.blogspot.com/2020/03/getting-started-in-r-with-statsbomb-data.html
+
 ##load competitions and filter by WSL 2019/2020 - FreeCompetitions() will load availble competitions including WSL/Spain/Champions League
 Comp<-FreeCompetitions()%>%
   filter(competition_id==37, season_name=="2019/2020")
