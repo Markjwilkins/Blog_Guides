@@ -66,9 +66,9 @@ x <- tbl(con, "epl_2018") %>%
 ##all data ----
 tables <- dbListTables(con) 
 
-data <- map_df(tables, dbReadTable, conn = con)
+all_data <- map_df(tables, dbReadTable, conn = con)
 
-data
+all_data
 
 ##close .db connection
 dbDisconnect(con)
